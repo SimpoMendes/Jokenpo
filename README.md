@@ -23,7 +23,7 @@
 
 <p>📷 Demonstração</p>
 
-<img src= https://github.com/SimpoMendes/Jokenpo/blob/main/img/jokenpomockup.png?raw=true>
+<img src= "https://github.com/SimpoMendes/Jokenpo/blob/main/img/jokenpomockup.png?raw=true">
 
 <p>*(Você pode colocar aqui um gif ou screenshot do site em funcionamento)*</p>
 
