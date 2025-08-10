@@ -85,29 +85,28 @@ p {
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
-    
-   
-
 }
 button:hover {
- opacity: 0.5;
+ opacity: 0.8;
+ font-size: 63px;
+
 }
 
 #stone {
 
-    background-color: #a764b8;
+    background-color: #79308b;
 }
 
 
 #paper {
 
-    background-color: #6fdb6b;
+    background-color: #39b334;
 
 }
 
 #scissors {
 
-    background-color: #4da4df;
+    background-color: #2974a7;
 
 }
 
