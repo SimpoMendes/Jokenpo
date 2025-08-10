@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-image: url("./img/background.png");
+    /* Substitua pela sua imagem */
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: #551366;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #551366;
+    margin-top: 10px;
+}
+
+.result{
+  font-size: 60px;
+  transition: 0.9s;
+  align-items: center;
+  margin: 0;
+
+}
+.caixa-result{
+    background-color: #f8fa7e;
+    padding:1px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    
+}
+
+
+
+.boa-sorte{
+    font-size: 12px;
+    color: #551366;
+    transition: 0.9s;
+    margin: 0;
+}
+.container {
+    width: 500px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px solid rgba(85, 19, 102, 0.1);
+    text-align: center;
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 60px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+   
+
+}
+button:hover {
+ opacity: 0.5;
+}
+
+#stone {
+
+    background-color: #a764b8;
+}
+
+
+#paper {
+
+    background-color: #6fdb6b;
+
+}
+
+#scissors {
+
+    background-color: #4da4df;
+
+}
+
+.span-you{
+    color: #4da4df;
+    font-size: 20px;
+    background-color: #23096b;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.span-machine {
+    color: #ce3f2c;
+    font-size: 20px;
+    background-color: #4d0606;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        
+    }
+
+    .buttons button {
+        font-size: 33px;
+        padding: 5px 10px;
+    }
+
+    .span-you,
+    .span-machine {
+        font-size: 20px;
+    }
+    .result{
+  font-size: 40px;
+  transition: 0.9s;
+
+}
+.caixa-result{
+    background-color: #f8fa7e;
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    
+}
+}

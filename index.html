@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Dev Club JokenPô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jokenpô</h1>
+        <div class="buttons">
+            <button onclick="playHuman('stone')" id="stone">&#x270A;&#x1F3FB;</button>
+            <button onclick="playHuman('paper')" id="paper">&#x1F590;&#x1F3FC;</button>
+            <button onclick="playHuman('scissors')" id="scissors">&#x270C;&#x1F3FB;</button>
+        </div>
+        <div class="caixa-result">
+            <p class="result">&#x1F60E;</p>
+            <p class="boa-sorte">Boa Sote</p>
+        </div>
+        <p class="you-score">Sua Pontuação: <span class="span-you">0</span></p>
+        <p class="machine-score">Pontuação da Maquina: <span class="span-machine">0</span></p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
