@@ -23,14 +23,15 @@
 
 <p>📷 Demonstração</p>
 
-<p>*(Você pode colocar aqui um gif ou screenshot do site em funcionamento)*</p>
+<img src= "https://github.com/SimpoMendes/Jokenpo/blob/main/img/jokenpomockup.png?raw=true">
+
 
 <h1>🚀 Como rodar localmente</h1>
 
 <p>1. Clone o repositório:</p>
 
    ```bash
-   git clone https://github.com/simpomendes/jokenpo.git
+   git clone (https://github.com/SimpoMendes/Jokenpo)
    ```
 2. Acesse a pasta do projeto:
 
