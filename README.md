@@ -31,7 +31,7 @@
 <p>1. Clone o repositório:</p>
 
    ```bash
-   git clone https://github.com/simpomendes/jokenpo.git
+   git clone (https://github.com/SimpoMendes/Jokenpo)
    ```
 2. Acesse a pasta do projeto:
 
